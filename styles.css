@@ -1,0 +1,38 @@
+body{
+    background-color: #000;
+}
+.middiv {
+    width: 750px;
+    height: 95%;
+    top: 10px;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: #3b0063;
+    background-color: #000;
+}
+.title{
+    color: #fff;
+    font-family: "Aleo", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.less-title{
+    color: #fff;
+    font-family: "Aleo", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 0.3in;
+}
+
+.usualtext{
+    padding-left: 140px;
+    padding-right: 140px;
+    color: #fff;
+    font-family: "Aleo", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
