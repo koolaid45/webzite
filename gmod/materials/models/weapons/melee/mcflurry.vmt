@@ -1,0 +1,18 @@
+VertexLitGeneric
+{
+$baseTexture "models\weapons\melee\mcflurry"
+$translucent 1
+
+Proxies
+{
+BloodyHands
+{
+resultVar $detailAmount
+}
+Equals
+{
+srcVar1 $detailAmount
+resultVar $detailblendfactor
+}
+}
+}
