@@ -1,25 +1,42 @@
 body{
-    background-color: #000;
+    background-color: #253237;
+    align-items: center;
 }
 .middiv {
-    width: 750px;
-    height: 95%;
-    top: 10px;
-    border-style: dashed;
-    border-width: 5px;
-    border-color: #3b0063;
-    background-color: #000;
+    min-width: 400px;
+    margin:auto;
+    width: 30%;
+    height: 100%;
+    margin-bottom: 10%;
+    background-color: #253237;
+    align-items: center;
+}
+.header {
+    display: flex;
+    align-items: center; /* Aligns the icon and text perfectly on the same center line */
+    gap: 15px;
+}
+.link-holder {
+    margin-top: 10px;
+    border-radius: 1px;
+    background-color: #253237;
+}
+.link-holder:hover {
+    background-color: #9DB4C0;
+    transition: 0.5s;
 }
 .title{
-    color: #fff;
+    color: #C2DFE3;
     font-family: "Aleo", serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    display: flex;
+    flex-direction: column;
 }
 
 .less-title{
-    color: #fff;
+    color: #C2DFE3;
     font-family: "Aleo", serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -28,11 +45,11 @@ body{
 }
 
 .usualtext{
-    padding-left: 140px;
-    padding-right: 140px;
-    color: #fff;
+    color: #C2DFE3;
     font-family: "Aleo", serif;
     font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    font-style: bold;
+    margin: auto;
 }
